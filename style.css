@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  overflow-x: hidden !important;
+}
+
+nav {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    linear-gradient(90deg, #78aac5 0%, #f48487 100%);
+}
+
+.link-btn {
+  border-radius: 9px;
+  background: linear-gradient(
+    141deg,
+    #78aac5 -1.94%,
+    #f3808e 31.11%,
+    #fcb236 72.98%,
+    #f7eea6 107.09%
+  );
+}
+
+.btn_1 {
+  background: linear-gradient(
+    145deg,
+    #78aac5 -0.94%,
+    #f3808e 33.51%,
+    #fcb236 72.02%,
+    #f7eea6 100%
+  );
+  box-shadow: 0px 23px 50px 0px rgba(250, 165, 77, 0.3);
+}
+
+/* GRADIENTS */
+.grad1 {
+  background: linear-gradient(
+    133deg,
+    #78aac5 32.04%,
+    #f3808e 53.19%,
+    #fcb236 79.99%,
+    #f7eea6 101.83%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 800;
+}
+
+.text_grad1 {
+  background: var(
+    --Linear,
+    linear-gradient(
+      154deg,
+      #78aac5 12.18%,
+      #f3808e 34.87%,
+      #fcb236 63.61%,
+      #f7eea6 87.03%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* SECTIONS */
+.sec_1 {
+  background: url("./assets/jv-sec1bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec2_minibg {
+  background: url("./assets/Jv-img4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec_4 {
+  background: url("./assets/jv-sec4bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.border_line {
+  border-color: rgba(255, 246, 246, 0.4);
+}
