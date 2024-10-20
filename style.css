@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   overflow-x: hidden !important;
+}
+
+.work {
+  font-family: "Work Sans", sans-serif;
 }
 
 nav {
@@ -68,6 +73,42 @@ nav {
   -webkit-text-fill-color: transparent;
 }
 
+.text_grad2 {
+  background: linear-gradient(
+    129deg,
+    #78aac5 21.83%,
+    #f3808e 47.14%,
+    #fcb236 70.48%,
+    #f7eea6 91.23%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_grad3 {
+  background: linear-gradient(
+    154deg,
+    #78aac5 12.18%,
+    #f3808e 34.87%,
+    #fcb236 63.61%,
+    #f7eea6 87.03%
+  );
+}
+
+.text_grad4 {
+  background: linear-gradient(
+    127deg,
+    #78aac5 27.15%,
+    #f3808e 47.04%,
+    #fcb236 72.24%,
+    #f7eea6 92.77%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* SECTIONS */
 .sec_1 {
   background: url("./assets/jv-sec1bg.jpg");
@@ -90,6 +131,36 @@ nav {
   background-size: cover;
 }
 
+.sec4_minibg {
+  background: linear-gradient(180deg, #f5eaea 0%, #ffe3d0 100%);
+}
+
+.sec_5 {
+  background: url("./assets/jv-sec5bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec_6 {
+  background: url("./assets/jv-sec6bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec7_minibg {
+  background: linear-gradient(180deg, #f5eaea 0%, #ffe3d0 100%);
+}
+
 .border_line {
   border-color: rgba(255, 246, 246, 0.4);
+}
+
+.imagine {
+  background: linear-gradient(
+    90deg,
+    rgba(252, 178, 54, 0.8) 0%,
+    rgba(243, 128, 142, 0.8) 100%
+  );
 }
