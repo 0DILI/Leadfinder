@@ -109,6 +109,16 @@ nav {
   -webkit-text-fill-color: transparent;
 }
 
+.text_grad5 {
+  border-radius: 32.737px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 178, 54, 0.8) 0%,
+    rgba(243, 128, 142, 0.8) 100%
+  );
+}
+
 /* SECTIONS */
 .sec_1 {
   background: url("./assets/jv-sec1bg.jpg");
@@ -150,6 +160,24 @@ nav {
 }
 
 .sec7_minibg {
+  background: linear-gradient(180deg, #f5eaea 0%, #ffe3d0 100%);
+}
+
+.sec_9 {
+  background: url("./assets/jv-sec9bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec_11 {
+  background: url("./assets/jv-sec11bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec11_minibg {
   background: linear-gradient(180deg, #f5eaea 0%, #ffe3d0 100%);
 }
 
