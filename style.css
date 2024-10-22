@@ -229,6 +229,21 @@ nav {
   );
 }
 
+.vid-test {
+  background: url("./assets/vid.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.vid-test iframe {
+  width: 100%;
+  height: 450px;
+}
+
 .border_line {
   border-color: rgba(255, 246, 246, 0.4);
 }
@@ -263,4 +278,29 @@ nav {
   border-radius: 12.754px;
   background: #78aac5;
   box-shadow: 0px 31.309px 66.615px 0px rgba(243, 128, 142, 0.6);
+}
+
+@keyframes bounce-smooth {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0); /* Center the element */
+    left: 50%; /* Ensure it is centered horizontally */
+  }
+  50% {
+    transform: translateX(-50%) translateY(-10px); /* Bounce effect */
+    left: 50%;
+  }
+}
+
+.animate-bounce-smooth {
+  animation: bounce-smooth 1.5s ease-in-out infinite;
+  position: absolute; /* Ensure the element is positioned relative to the container */
+  left: 50%; /* Ensure it stays centered */
+  transform: translateX(-50%); /* Initial centering */
+}
+
+@media (max-width: 421px) {
+  .vid-test iframe {
+    height: 250px;
+  }
 }
