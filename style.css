@@ -119,6 +119,22 @@ nav {
   );
 }
 
+.text_grad6 {
+  background: var(
+    --Linear,
+    linear-gradient(
+      154deg,
+      #78aac5 12.18%,
+      #f3808e 34.87%,
+      #fcb236 63.61%,
+      #f7eea6 87.03%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* SECTIONS */
 .sec_1 {
   background: url("./assets/jv-sec1bg.jpg");
@@ -181,6 +197,38 @@ nav {
   background: linear-gradient(180deg, #f5eaea 0%, #ffe3d0 100%);
 }
 
+.sec_12 {
+  background: url("./assets/jv-sec12bg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.sec_13 {
+  background: url("./assets/jv-sec13bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec_15 {
+  background: url("./assets/jv-sec-15bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec15_minibg {
+  border-radius: 16.667px;
+  background: linear-gradient(
+    151deg,
+    #78aac5 12.21%,
+    #f3808e 40.67%,
+    #fcb236 76.73%,
+    #f7eea6 106.11%
+  );
+}
+
 .border_line {
   border-color: rgba(255, 246, 246, 0.4);
 }
@@ -191,4 +239,28 @@ nav {
     rgba(252, 178, 54, 0.8) 0%,
     rgba(243, 128, 142, 0.8) 100%
   );
+}
+
+.comm {
+  border-radius: 12.661px;
+  background: linear-gradient(
+    154deg,
+    #78aac5 12.18%,
+    #f3808e 34.87%,
+    #fcb236 63.61%,
+    #f7eea6 87.03%
+  );
+  backdrop-filter: blur(2.277001142501831px);
+}
+
+.oto {
+  border-radius: 12.661px;
+  background: linear-gradient(180deg, #78aac5 0%, #62879d 100%);
+  backdrop-filter: blur(2.277001142501831px);
+}
+
+.swipe {
+  border-radius: 12.754px;
+  background: #78aac5;
+  box-shadow: 0px 31.309px 66.615px 0px rgba(243, 128, 142, 0.6);
 }
